@@ -3,8 +3,8 @@ class AddProducts < ActiveRecord::Migration[7.0]
 
       Product.create(title: "Gawaiian", 
                      description: "This is gawaiian pizza",
-                     price: 350,
-                     size: 30,
+                     price: 250,
+                     size: 50,
                      is_spicy: false,
                      is_veg: false,
                      is_best_offer: false,
@@ -12,8 +12,8 @@ class AddProducts < ActiveRecord::Migration[7.0]
 
      Product.create(title: "Paperoni", 
                     description: "Nice paperoni pizza",
-                    price: 450,
-                    size: 30,
+                    price: 350,
+                    size: 50,
                     is_spicy: false,
                     is_veg: false,
                     is_best_offer: true,
@@ -22,7 +22,7 @@ class AddProducts < ActiveRecord::Migration[7.0]
   
      Product.create(title: "Vegetarian", 
                     description: "Amazing vegetarian pizza",
-                    price: 400,
+                    price: 300,
                     size: 30,
                     is_spicy: false,
                     is_veg: false,
